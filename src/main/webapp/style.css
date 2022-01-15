@@ -1,0 +1,201 @@
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+.container{
+    padding: 50px;
+}
+
+.header{
+    background-color: #dae8ea;
+}
+
+.ds_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_menu{
+    display: flex;
+    align-items: center;
+}
+
+.header_menu li{
+    list-style-type: none;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.header_menu li a:hover{
+    color: #103b42;
+    transition: color .3s ease;
+}
+
+.header_btn{
+    padding: 10px 10px;
+    background-color: #00a5ff;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 1px solid #00a5ff;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*    second_level     */
+
+
+.second_level{
+    background-image: url("https://acdn.tinkoff.ru/static/pages/files/5bb8f67d-4ae7-47d1-93a7-e75f43839a35.webp");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+    height: 88%;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.s_level_info{
+    padding-top: 200px;
+}
+
+.regis_link:hover{
+    color: #00a5ff;
+    transition: color .3s ease;
+}
+
+.form_regis{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* text-align: center; */
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.form_regis input{
+    height: 35px;
+    border-radius: 30px;
+    border: #00a5ff 1px solid;
+}
+
+.form_autoriz{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* text-align: center; */
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.form_autoriz input{
+    height: 35px;
+    border-radius: 30px;
+    border: #00a5ff 1px solid;
+}
+
+.form_btn{
+    background-color: #00a5ff;
+    border: #00a5ff;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 30px;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+.reg_supp{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+.reg_link{
+    color: #0051d7;
+}
+
+
+/*================ BUY =============*/
+
+.card{
+    background-image: url("https://acdn.tinkoff.ru/static/pages/files/f011452e-e11f-42ef-bff3-1361f170c805.png");
+    background-repeat: no-repeat;
+    background-position-x: 108%;
+    background-position-y: 131%;
+    background-size: auto;
+    border: 1px solid #243538;
+    padding: 30px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.buy_title{
+    font-weight: 600;
+    font-size: 50px;
+    margin: 0;
+    color: #eeee40;
+}
+
+.buy_subtitle{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.buy_items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buy_item{
+    display: flex;
+    align-items: center;
+}
+
+.buy_item_num{
+    margin-right: 5px;
+    border: 3px solid #eeee40;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.buy_btn{
+    background-color: #eeee40;
+    padding: 10px 21px;
+    border: #eeee40;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.buy_spn{
+    color: #0051d7;
+}
+
+
+/*================ ERROR =============*/
+
+.error{
+    text-align: right;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+
+

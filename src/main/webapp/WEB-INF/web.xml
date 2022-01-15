@@ -1,0 +1,63 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+
+
+
+    <!--  Создание сервлета на страницу вся информация  -->
+    <servlet>
+        <servlet-name>infoServlet</servlet-name>
+        <servlet-class>ru.user.project.web.InfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>infoServlet</servlet-name>
+        <url-pattern>/info </url-pattern>
+    </servlet-mapping>
+
+
+    <!--  Создание сервлета на страницу регистрация  -->
+    <servlet>
+        <servlet-name>registServlet</servlet-name>
+        <servlet-class>ru.user.project.web.RegistServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registServlet</servlet-name>
+        <url-pattern>/registration</url-pattern>
+    </servlet-mapping>
+
+
+    <!--  Создание сервлета на страницу авторизацию  -->
+    <servlet>
+        <servlet-name>autorizServlet</servlet-name>
+        <servlet-class>ru.user.project.web.AutorizServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>autorizServlet</servlet-name>
+        <url-pattern>/autorization</url-pattern>
+    </servlet-mapping>
+
+    <!--  Создание сервлета на страницу покупки  -->
+    <servlet>
+        <servlet-name>buyServlet</servlet-name>
+        <servlet-class>ru.user.project.web.BuyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>buyServlet</servlet-name>
+        <url-pattern>/buy</url-pattern>
+    </servlet-mapping>
+
+    <!--  Создание сервлета для страница главная  -->
+    <servlet>
+        <servlet-name>mainServlet</servlet-name>
+        <servlet-class>ru.user.project.web.MainServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>mainServlet</servlet-name>
+        <url-pattern>/main</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
